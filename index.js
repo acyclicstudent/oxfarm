@@ -4,6 +4,13 @@ var url = require('url');
 
 let mainWindow
 
+if (process.env.NODE_ENV != 'production') {
+    require('electron-reload')(__dirname, {
+
+    });
+}
+
+
 app.on('ready', () => {
     mainWindow = new BrowserWindow({});
     mainWindow.loadURL(url.format({

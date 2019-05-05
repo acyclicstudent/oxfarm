@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/acyclicstudent/oxfarm#readme",
   "dependencies": {
-    "electron": "^5.0.1"
+    "electron": "^5.0.1",
+    "electron-reload": "^1.4.0"
   }
 }
