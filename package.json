@@ -1,0 +1,23 @@
+{
+  "name": "oxfarm",
+  "version": "1.0.0",
+  "description": "Oxfarm Controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acyclicstudent/oxfarm.git"
+  },
+  "author": "Enterlapps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acyclicstudent/oxfarm/issues"
+  },
+  "homepage": "https://github.com/acyclicstudent/oxfarm#readme",
+  "dependencies": {
+    "electron": "^5.0.1"
+  }
+}
