@@ -12,7 +12,7 @@ if (process.env.NODE_ENV != 'production') {
 
 
 app.on('ready', () => {
-    mainWindow = new BrowserWindow({});
+    mainWindow = new BrowserWindow({frame: false});
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'src/index.html'),
         protocol: 'file',
